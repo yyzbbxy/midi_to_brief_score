@@ -1,0 +1,4 @@
+pyinstaller -F -w -i "my_midi.ico" main.py
+pyuic5 -o input.py input.ui
+pyuic5 -o version_diary.py version_diary.ui
+pyuic5 -o about.py about.ui
